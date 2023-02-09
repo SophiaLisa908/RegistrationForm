@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input{
+    /* width: 20%; */
+    border-radius: 5px;
+    padding: 3px;
+    border: none;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+}
+button{
+    padding: 10px 100px 10px 100px;
+    border: none;
+    border-radius: 5px;
+}
+.sections{
+    display: flex;
+    flex-flow: row;
+}
+Body{
+    background-color: lightgreen;
+}
+.btn{
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+}
+section{
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-evenly;
+    padding: 30px;
+}
+select{
+    border-radius: 5px;
+}
+.phone{
+    display: flex;
+    flex-flow: row;
+}
+textarea{
+    border-radius: 5px;
+}
+.gender{
+    display: flex;
+    flex-flow: row;
+    gap: 10px;
+}
+.names{
+    /* font-size: 15px; */
+    min-width: 100%;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    
+}
+.heading{
+    margin-top: 50px;
+    display: flex; 
+    align-items: center;
+    font-size: 45px;
+    margin-bottom: 35px;
+    
+    
+}
